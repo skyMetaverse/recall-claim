@@ -27,6 +27,9 @@ cp .env.example .env
 PRIVATE_KEY=你的私钥（不要包含0x前缀）
 ```
 
+## 获取 CLAIM_DATA 数据
+访问 `https://claim.recall.network/api/airdrop/有资格的钱包地址`
+将`{}`中的内容粘贴到claim.js中的 52 行
 ## 使用方法
 
 运行领取脚本：
@@ -61,4 +64,3 @@ PRIVATE_KEY=你的私钥 node claim.js
 
 - 合约地址: `0x6A3044c1Cf077F386c9345eF84f2518A2682Dfff`
 - 网络: Base主网
-- 领取数量: 9,310 tokens
